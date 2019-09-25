@@ -7,7 +7,7 @@ int main()
 {
 	Game game(1200, 800, 5); // changed last argument (enemiesToWin) for faster win
 
-	try {
+	try { 
 		game.start();
 	}
 	catch (const std::invalid_argument&) {
