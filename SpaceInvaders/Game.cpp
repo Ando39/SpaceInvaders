@@ -9,7 +9,7 @@ Game::Game(size_t wid, size_t hei, size_t enemiesToWin) : width(wid), height(hei
 	initSprites();
 }
 
-std::map<std::string, sf::Texture> Game::initTextures() {
+std::map<std::string, sf::Texture> Game::initTextures() { 
 	
 	std::map<std::string, sf::Texture> textures;
 	std::vector<std::string> images{ "background.png", "player.png", "enemy.png", "bullet.png", "enemyBullet.png", "explosion.png" };
