@@ -197,8 +197,8 @@ void Game::start() {
 		window.clear(sf::Color::White);
 		window.draw(background);
 
-		drawPlayer();
 		drawEnemies();
+		drawPlayer();
 
 		checkForCollisions();
 
