@@ -5,7 +5,7 @@
 
 int main()
 {
-	Game game(1200, 800, 5); // changed last argument (enemiesToWin) for faster win
+	Game game(1200, 800, 5); // changed last argument (enemiesToWin) to win faster
 
 	try { 
 		game.start();
